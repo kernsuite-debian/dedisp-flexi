@@ -1,3 +1,2 @@
-# You must remove unused comment lines for the released package.
 Fix-instalation-path.patch
 Make-directory-before-install.patch
