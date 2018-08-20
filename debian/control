@@ -20,7 +20,7 @@ Description: CUDA Based De-dispersion library
 Package: dedisp-flexi-dev
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, libdedisp-flexi1
-Conflicts: libdedisp-dev, libdedisp-ewanbarr-dev, libdedisp-ajameson-dev 
+Conflicts: dedisp-dev, dedisp-ewanbarr-dev, dedisp-ajameson-dev
 Description: CUDA Based De-dispersion library
  Dedisp is a C library for computing the incoherent dedispersion transform
  using a GPU. It takes filterbank data as input and computes multiple
