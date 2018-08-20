@@ -1,0 +1,29 @@
+Source: dedisp-flexi
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9), nvidia-cuda-toolkit
+Standards-Version: 3.9.8
+Homepage: https://github.com/ewanbarr/dedisp-flexi
+
+Package: libdedisp-flexi1
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libdedisp1, libdedisp-ewanbarr1, libdedisp-ajameson1
+Description: CUDA Based De-dispersion library
+ Dedisp is a C library for computing the incoherent dedispersion transform
+ using a GPU. It takes filterbank data as input and computes multiple
+ dedispersed integrated time series at different dispersion measures. The
+ application programming interface (API) is based on that of the FFTW library,
+ and should be familiar to users of that package.
+
+Package: dedisp-flexi-dev
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libdedisp-flexi1
+Conflicts: libdedisp-dev, libdedisp-ewanbarr-dev, libdedisp-ajameson-dev 
+Description: CUDA Based De-dispersion library
+ Dedisp is a C library for computing the incoherent dedispersion transform
+ using a GPU. It takes filterbank data as input and computes multiple
+ dedispersed integrated time series at different dispersion measures. The
+ application programming interface (API) is based on that of the FFTW library,
+ and should be familiar to users of that package.

@@ -1,0 +1,175 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dedisp-flexi
+Source: https://github.com/ewanbarr/dedisp-flexi
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     Doxyfile
+           INSTALL
+           Makefile
+           Makefile.inc
+           README.md
+           example/Makefile
+           example/testdedisp.c
+           html/doxygen.css
+           html/doxygen.png
+           html/tab_b.gif
+           html/tab_l.gif
+           html/tab_r.gif
+           html/tabs.css
+           libdedisp.version
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     example/gasdev.c
+           example/ran1.c
+Copyright: Copr. 1986-92 Numerical Recipes Software ,)'1.
+License:   __NO_LICENSE__
+
+Files:     src/gpu_memory.hpp
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This file just contains crappy wrappers for CUDA memory functions
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/dedisp.h
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ dedisp.h
+ By Ben Barsdell (2012)
+ benbarsdell@gmail.com
+ Originally developed while at the Centre for Astrophysics and Supercomputing,
+ Swinburne University of Technology, Victoria, Australia
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/transpose.hpp
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This file contains a CUDA implementation of the array transpose operation.
+ .
+ Parts of this file are based on the transpose implementation in the
+ NVIDIA CUDA SDK.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/DedispPlan.hpp
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This is a simple C++ wrapper class for the dedisp library
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/dedisp.cu
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This file contains the boring boiler-plate code to manage the library.
+ .
+ TODO: Test on 32-bit integer input
+ Consider accepting 32-bit floats instead of 32-bit ints
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/kernels.cuh
+Copyright: 2012 Ben Barsdell
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This file contains the important stuff like the CUDA kernel and physical
+ equations.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         html/globals_enum.html
+#         html/pages.html
+#         html/dedisp_8h-source.html
+#         html/globals_func.html
+#         html/bug.html
+#         html/files.html
+#         html/globals_type.html
+#         html/index.html
+#         html/globals.html
+#         html/dedisp_8h.html
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

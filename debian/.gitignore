@@ -1,0 +1,8 @@
+.debhelper/
+*.debhelper.log
+*.substvars
+dedisp-ajameson/
+files
+dedisp-ajameson-dev/
+libdedisp-ajameson1/
+tmp/
